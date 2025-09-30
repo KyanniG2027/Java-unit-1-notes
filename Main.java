@@ -109,8 +109,31 @@ public class Main {
       double negativeNum = -67;
       int nearestPositive = (int) (positiveNum + 0.5); 
       int nearestNegative = (int) (negativeNum - 0.5);
-      System.out.println(positiveNum)
-       System.out.println(negativeNum)
+      System.out.println(positiveNum);
+      System.out.println(negativeNum);
+
+      //COMPOUND OPERATORS (shortcuts)
+         int runs = 0;
+         // Re-assignv variable to existing value plus 1    
+          runs = runs + 1; 
+          //this is the shortcut for the line above
+          runs += 1;  // the operater comes first then result assigned back
+          System.out.println("Runs: " +  runs);
+          // Even shorter shortcut for adding/subtracting ONE!
+          runs ++; 
+          runs --; // same as runs = runs - 1; 
+
+          // More examples of shortcuts
+          runs = runs * 2; //runs is now 4
+          runs *= 3; //runs is now 12
+         System.out.println("Runs: " +  runs);
+         runs *= -10;
+         runs /= 10; // dividing current value by 10
+         System.out.println("Runs; " + runs);
+         runs %= 7; // remainder of runs/7
+         System.out.println("Runs;" + runs);
+          
+
       
 
 
